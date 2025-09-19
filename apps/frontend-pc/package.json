@@ -9,6 +9,7 @@
     "test:unit": "vitest --run"
   },
   "dependencies": {
+    "echarts": "^5.5.0",
     "vue": "^3.3.4",
     "vue-router": "^4.0.0"
   },
