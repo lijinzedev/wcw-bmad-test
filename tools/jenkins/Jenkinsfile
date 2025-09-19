@@ -1,0 +1,118 @@
+pipeline {
+    agent any
+    
+    tools {
+        nodejs "node"
+        jdk "java"
+    }
+    
+    environment {
+        BACKEND_DIR = "apps/backend"
+        FRONTEND_PC_DIR = "apps/frontend-pc"
+        FRONTEND_MOBILE_DIR = "apps/frontend-mobile"
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        
+        stage('Setup') {
+            steps {
+                script {
+                    // 检查并安装后端依赖
+                    sh "cd ${BACKEND_DIR} && mvn --version"
+                    
+                    // 检查并安装前端依赖
+                    sh "cd ${FRONTEND_PC_DIR} && npm --version"
+                    sh "cd ${FRONTEND_MOBILE_DIR} && npm --version"
+                }
+            }
+        }
+        
+        stage('Build Backend') {
+            steps {
+                sh "cd ${BACKEND_DIR} && mvn clean package -DskipTests"
+            }
+            post {
+                success {
+                    echo 'Backend build successful'
+                }
+                failure {
+                    echo 'Backend build failed'
+                }
+            }
+        }
+        
+        stage('Build Frontend PC') {
+            steps {
+                sh "cd ${FRONTEND_PC_DIR} && npm install"
+                sh "cd ${FRONTEND_PC_DIR} && npm run build"
+            }
+            post {
+                success {
+                    echo 'Frontend PC build successful'
+                }
+                failure {
+                    echo 'Frontend PC build failed'
+                }
+            }
+        }
+        
+        stage('Build Frontend Mobile') {
+            steps {
+                sh "cd ${FRONTEND_MOBILE_DIR} && npm install"
+                sh "cd ${FRONTEND_MOBILE_DIR} && npm run build"
+            }
+            post {
+                success {
+                    echo 'Frontend Mobile build successful'
+                }
+                failure {
+                    echo 'Frontend Mobile build failed'
+                }
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                sh "cd ${BACKEND_DIR} && mvn test"
+            }
+            post {
+                success {
+                    echo 'Tests passed'
+                }
+                failure {
+                    echo 'Tests failed'
+                }
+            }
+        }
+        
+        stage('Deploy to Dev') {
+            steps {
+                script {
+                    echo 'Deploying to development environment...'
+                    // 这里可以添加实际的部署命令
+                    // 例如：sh 'kubectl apply -f k8s/dev/'
+                }
+            }
+        }
+    }
+    
+    post {
+        always {
+            // 发送通知
+            script {
+                echo "Pipeline completed with status: ${currentBuild.result ?: 'SUCCESS'}"
+            }
+        }
+        success {
+            echo 'Pipeline completed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}

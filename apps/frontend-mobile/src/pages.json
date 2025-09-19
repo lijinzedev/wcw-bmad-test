@@ -1,0 +1,45 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/report/report",
+      "style": {
+        "navigationBarTitleText": "隐患快速上报"
+      }
+    },
+    {
+      "path": "pages/my/reports",
+      "style": {
+        "navigationBarTitleText": "我的上报"
+      }
+    },
+    {
+      "path": "pages/my/report-detail",
+      "style": {
+        "navigationBarTitleText": "上报详情"
+      }
+    },
+    {
+      "path": "pages/alerts/index",
+      "style": {
+        "navigationBarTitleText": "我的预警"
+      }
+    },
+    {
+      "path": "pages/alerts/detail",
+      "style": {
+        "navigationBarTitleText": "预警详情"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f5f5"
+  }
+}

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.shanergy.bprev.controller.AssessmentControllerTest" time="0.064" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/curiosity/tools/wcw/apps/backend/target/test-classes:/Users/curiosity/tools/wcw/apps/backend/target/classes:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.1.5/spring-boot-starter-data-jpa-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.1.5/spring-boot-starter-aop-3.1.5.jar:/Users/curiosity/.m2/repository/org/aspectj/aspectjweaver/1.9.20/aspectjweaver-1.9.20.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.5/spring-boot-starter-jdbc-3.1.5.jar:/Users/curiosity/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/curiosity/.m2/repository/org/springframework/spring-jdbc/6.0.13/spring-jdbc-6.0.13.jar:/Users/curiosity/.m2/repository/org/hibernate/orm/hibernate-core/6.2.13.Final/hibernate-core-6.2.13.Final.jar:/Users/curiosity/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/curiosity/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/curiosity/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/Users/curiosity/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/curiosity/.m2/repository/io/smallrye/jandex/3.0.5/jandex-3.0.5.jar:/Users/curiosity/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/curiosity/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/curiosity/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.3/jaxb-runtime-4.0.3.jar:/Users/curiosity/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.3/jaxb-core-4.0.3.jar:/Users/curiosity/.m2/repository/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar:/Users/curiosity/.m2/repository/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3.jar:/Users/curiosity/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/Users/curiosity/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/curiosity/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/Users/curiosity/.m2/repository/org/springframework/data/spring-data-jpa/3.1.5/spring-data-jpa-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/data/spring-data-commons/3.1.5/spring-data-commons-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/spring-orm/6.0.13/spring-orm-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-context/6.0.13/spring-context-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-tx/6.0.13/spring-tx-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-beans/6.0.13/spring-beans-6.0.13.jar:/Users/curiosity/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/curiosity/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/curiosity/.m2/repository/org/springframework/spring-aspects/6.0.13/spring-aspects-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.1.5/spring-boot-starter-web-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.5/spring-boot-starter-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot/3.1.5/spring-boot-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.5/spring-boot-autoconfigure-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.5/spring-boot-starter-logging-3.1.5.jar:/Users/curiosity/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/curiosity/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/curiosity/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/curiosity/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar:/Users/curiosity/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.1.5/spring-boot-starter-json-3.1.5.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.5/spring-boot-starter-tomcat-3.1.5.jar:/Users/curiosity/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.15/tomcat-embed-core-10.1.15.jar:/Users/curiosity/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.15/tomcat-embed-websocket-10.1.15.jar:/Users/curiosity/.m2/repository/org/springframework/spring-web/6.0.13/spring-web-6.0.13.jar:/Users/curiosity/.m2/repository/io/micrometer/micrometer-observation/1.11.5/micrometer-observation-1.11.5.jar:/Users/curiosity/.m2/repository/io/micrometer/micrometer-commons/1.11.5/micrometer-commons-1.11.5.jar:/Users/curiosity/.m2/repository/org/springframework/spring-webmvc/6.0.13/spring-webmvc-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-expression/6.0.13/spring-expression-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.1.5/spring-boot-starter-validation-3.1.5.jar:/Users/curiosity/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.15/tomcat-embed-el-10.1.15.jar:/Users/curiosity/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/Users/curiosity/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.1.5/spring-boot-starter-security-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/spring-aop/6.0.13/spring-aop-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-config/6.1.5/spring-security-config-6.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-core/6.1.5/spring-security-core-6.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-crypto/6.1.5/spring-security-crypto-6.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-web/6.1.5/spring-security-web-6.1.5.jar:/Users/curiosity/.m2/repository/io/jsonwebtoken/jjwt-api/0.11.5/jjwt-api-0.11.5.jar:/Users/curiosity/.m2/repository/io/jsonwebtoken/jjwt-impl/0.11.5/jjwt-impl-0.11.5.jar:/Users/curiosity/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.11.5/jjwt-jackson-0.11.5.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar:/Users/curiosity/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/Users/curiosity/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/Users/curiosity/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/curiosity/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/curiosity/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/curiosity/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/curiosity/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/curiosity/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/curiosity/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/curiosity/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/curiosity/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/curiosity/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/curiosity/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/curiosity/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/curiosity/.m2/repository/io/minio/minio/8.5.6/minio-8.5.6.jar:/Users/curiosity/.m2/repository/com/carrotsearch/thirdparty/simple-xml-safe/2.7.1/simple-xml-safe-2.7.1.jar:/Users/curiosity/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/curiosity/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/curiosity/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/curiosity/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/curiosity/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/curiosity/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/curiosity/.m2/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar:/Users/curiosity/.m2/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.22/kotlin-stdlib-common-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.22/kotlin-stdlib-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar:/Users/curiosity/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.74/bcprov-jdk18on-1.74.jar:/Users/curiosity/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.1/snappy-java-1.1.10.1.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.5/spring-boot-starter-test-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-test/3.1.5/spring-boot-test-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.5/spring-boot-test-autoconfigure-3.1.5.jar:/Users/curiosity/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/curiosity/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/curiosity/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/curiosity/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/curiosity/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/curiosity/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/curiosity/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/curiosity/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/curiosity/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/curiosity/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/curiosity/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/curiosity/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/curiosity/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/curiosity/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar:/Users/curiosity/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/curiosity/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/curiosity/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/curiosity/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/curiosity/.m2/repository/org/springframework/spring-core/6.0.13/spring-core-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-jcl/6.0.13/spring-jcl-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-test/6.0.13/spring-test-6.0.13.jar:/Users/curiosity/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/curiosity/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="/Users/curiosity/.version-fox/cache/java/v-21.0.7-oracle/java-21.0.7-oracle/lib"/>
+    <property name="sun.java.command" value="/Users/curiosity/tools/wcw/apps/backend/target/surefire/surefirebooter-20250918174152858_3.jar /Users/curiosity/tools/wcw/apps/backend/target/surefire 2025-09-18T17-41-52_826-jvmRun1 surefire-20250918174152858_1tmp surefire_0-20250918174152858_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/curiosity/tools/wcw/apps/backend/target/test-classes:/Users/curiosity/tools/wcw/apps/backend/target/classes:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.1.5/spring-boot-starter-data-jpa-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.1.5/spring-boot-starter-aop-3.1.5.jar:/Users/curiosity/.m2/repository/org/aspectj/aspectjweaver/1.9.20/aspectjweaver-1.9.20.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.1.5/spring-boot-starter-jdbc-3.1.5.jar:/Users/curiosity/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/curiosity/.m2/repository/org/springframework/spring-jdbc/6.0.13/spring-jdbc-6.0.13.jar:/Users/curiosity/.m2/repository/org/hibernate/orm/hibernate-core/6.2.13.Final/hibernate-core-6.2.13.Final.jar:/Users/curiosity/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/curiosity/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/curiosity/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/Users/curiosity/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/curiosity/.m2/repository/io/smallrye/jandex/3.0.5/jandex-3.0.5.jar:/Users/curiosity/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/curiosity/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/Users/curiosity/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.3/jaxb-runtime-4.0.3.jar:/Users/curiosity/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.3/jaxb-core-4.0.3.jar:/Users/curiosity/.m2/repository/org/eclipse/angus/angus-activation/2.0.1/angus-activation-2.0.1.jar:/Users/curiosity/.m2/repository/org/glassfish/jaxb/txw2/4.0.3/txw2-4.0.3.jar:/Users/curiosity/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/Users/curiosity/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/curiosity/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/Users/curiosity/.m2/repository/org/springframework/data/spring-data-jpa/3.1.5/spring-data-jpa-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/data/spring-data-commons/3.1.5/spring-data-commons-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/spring-orm/6.0.13/spring-orm-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-context/6.0.13/spring-context-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-tx/6.0.13/spring-tx-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-beans/6.0.13/spring-beans-6.0.13.jar:/Users/curiosity/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/curiosity/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/curiosity/.m2/repository/org/springframework/spring-aspects/6.0.13/spring-aspects-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.1.5/spring-boot-starter-web-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.5/spring-boot-starter-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot/3.1.5/spring-boot-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.5/spring-boot-autoconfigure-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.5/spring-boot-starter-logging-3.1.5.jar:/Users/curiosity/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/curiosity/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/curiosity/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/curiosity/.m2/repository/org/slf4j/jul-to-slf4j/2.0.9/jul-to-slf4j-2.0.9.jar:/Users/curiosity/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.1.5/spring-boot-starter-json-3.1.5.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.1.5/spring-boot-starter-tomcat-3.1.5.jar:/Users/curiosity/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.15/tomcat-embed-core-10.1.15.jar:/Users/curiosity/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.15/tomcat-embed-websocket-10.1.15.jar:/Users/curiosity/.m2/repository/org/springframework/spring-web/6.0.13/spring-web-6.0.13.jar:/Users/curiosity/.m2/repository/io/micrometer/micrometer-observation/1.11.5/micrometer-observation-1.11.5.jar:/Users/curiosity/.m2/repository/io/micrometer/micrometer-commons/1.11.5/micrometer-commons-1.11.5.jar:/Users/curiosity/.m2/repository/org/springframework/spring-webmvc/6.0.13/spring-webmvc-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-expression/6.0.13/spring-expression-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.1.5/spring-boot-starter-validation-3.1.5.jar:/Users/curiosity/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.15/tomcat-embed-el-10.1.15.jar:/Users/curiosity/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/Users/curiosity/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-security/3.1.5/spring-boot-starter-security-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/spring-aop/6.0.13/spring-aop-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-config/6.1.5/spring-security-config-6.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-core/6.1.5/spring-security-core-6.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-crypto/6.1.5/spring-security-crypto-6.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/security/spring-security-web/6.1.5/spring-security-web-6.1.5.jar:/Users/curiosity/.m2/repository/io/jsonwebtoken/jjwt-api/0.11.5/jjwt-api-0.11.5.jar:/Users/curiosity/.m2/repository/io/jsonwebtoken/jjwt-impl/0.11.5/jjwt-impl-0.11.5.jar:/Users/curiosity/.m2/repository/io/jsonwebtoken/jjwt-jackson/0.11.5/jjwt-jackson-0.11.5.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar:/Users/curiosity/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/Users/curiosity/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/Users/curiosity/.m2/repository/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar:/Users/curiosity/.m2/repository/org/apache/poi/poi/5.2.5/poi-5.2.5.jar:/Users/curiosity/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/curiosity/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/curiosity/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/curiosity/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar:/Users/curiosity/.m2/repository/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar:/Users/curiosity/.m2/repository/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar:/Users/curiosity/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/Users/curiosity/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/curiosity/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/curiosity/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/curiosity/.m2/repository/io/minio/minio/8.5.6/minio-8.5.6.jar:/Users/curiosity/.m2/repository/com/carrotsearch/thirdparty/simple-xml-safe/2.7.1/simple-xml-safe-2.7.1.jar:/Users/curiosity/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/curiosity/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/curiosity/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/curiosity/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/curiosity/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/curiosity/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/curiosity/.m2/repository/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar:/Users/curiosity/.m2/repository/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.22/kotlin-stdlib-common-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.22/kotlin-stdlib-1.8.22.jar:/Users/curiosity/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar:/Users/curiosity/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar:/Users/curiosity/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.74/bcprov-jdk18on-1.74.jar:/Users/curiosity/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.1/snappy-java-1.1.10.1.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.5/spring-boot-starter-test-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-test/3.1.5/spring-boot-test-3.1.5.jar:/Users/curiosity/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.5/spring-boot-test-autoconfigure-3.1.5.jar:/Users/curiosity/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/curiosity/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.1/jakarta.xml.bind-api-4.0.1.jar:/Users/curiosity/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/curiosity/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/Users/curiosity/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/Users/curiosity/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/curiosity/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/curiosity/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/curiosity/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/curiosity/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/curiosity/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/curiosity/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/curiosity/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/curiosity/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/curiosity/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.9/byte-buddy-agent-1.14.9.jar:/Users/curiosity/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/curiosity/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/curiosity/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/curiosity/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/curiosity/.m2/repository/org/springframework/spring-core/6.0.13/spring-core-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-jcl/6.0.13/spring-jcl-6.0.13.jar:/Users/curiosity/.m2/repository/org/springframework/spring-test/6.0.13/spring-test-6.0.13.jar:/Users/curiosity/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/curiosity/.m2/repository/com/h2database/h2/2.1.214/h2-2.1.214.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/curiosity"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/Users/curiosity/.version-fox/cache/java/v-21.0.7-oracle/java-21.0.7-oracle"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/curiosity/tools/wcw/apps/backend"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="skipITs" value="true"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/curiosity/tools/wcw/apps/backend/target/surefire/surefirebooter-20250918174152858_3.jar"/>
+    <property name="user.script" value="Hans"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="curiosity"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.4.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/curiosity/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xt/r7ghqgqx69xc59_fw8txct8c0000gn/T/"/>
+    <property name="com.zaxxer.hikari.pool_number" value="2"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="/Users/curiosity/tools/wcw/apps/backend"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="83142"/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/curiosity/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="adminCanCreateCycleAndRecalculateResults" classname="com.shanergy.bprev.controller.AssessmentControllerTest" time="0.059">
+    <error message="Request processing failed: java.lang.ClassCastException: class [B cannot be cast to class java.util.UUID ([B and java.util.UUID are in module java.base of loader &apos;bootstrap&apos;)" type="jakarta.servlet.ServletException"><![CDATA[jakarta.servlet.ServletException: Request processing failed: java.lang.ClassCastException: class [B cannot be cast to class java.util.UUID ([B and java.util.UUID are in module java.base of loader 'bootstrap')
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1019)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:72)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:165)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:168)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.shanergy.bprev.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:48)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:132)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:201)
+	at com.shanergy.bprev.controller.AssessmentControllerTest.adminCanCreateCycleAndRecalculateResults(AssessmentControllerTest.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.ClassCastException: class [B cannot be cast to class java.util.UUID ([B and java.util.UUID are in module java.base of loader 'bootstrap')
+	at com.shanergy.bprev.service.AssessmentService.lambda$aggregateHazards$6(AssessmentService.java:397)
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:179)
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.shanergy.bprev.service.AssessmentService.aggregateHazards(AssessmentService.java:397)
+	at com.shanergy.bprev.service.AssessmentService.computeMetric(AssessmentService.java:383)
+	at com.shanergy.bprev.service.AssessmentService.recalculate(AssessmentService.java:221)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.shanergy.bprev.service.AssessmentService$$SpringCGLIB$$0.recalculate(<generated>)
+	at com.shanergy.bprev.controller.AssessmentController.recalculate(AssessmentController.java:74)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.security.authorization.method.AuthorizationManagerBeforeMethodInterceptor.invoke(AuthorizationManagerBeforeMethodInterceptor.java:199)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.shanergy.bprev.controller.AssessmentController$$SpringCGLIB$$0.recalculate(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	... 132 more
+]]></error>
+    <system-out><![CDATA[2025-09-18T17:41:57.152+08:00  INFO 83142 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.shanergy.bprev.controller.AssessmentControllerTest]: AssessmentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-18T17:41:57.154+08:00  INFO 83142 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.shanergy.bprev.BprevApplication for test class com.shanergy.bprev.controller.AssessmentControllerTest
+2025-09-18T17:41:57.172+08:00  INFO 83142 --- [           main] c.shanergy.bprev.service.AuditService    : AUDIT {"action":"assessment.cycle.create","timestamp":"2025-09-18T17:41:57.17254+08:00","actorId":"33333333-3333-3333-3333-333333333333","username":"ad***","organizationId":"11111111-1111-1111-1111-111111111111","details":{"level":"MINE","indicatorCount":2,"cycleId":"57c5fc45-1676-4478-8224-89ffd8b9c9dc"}}
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/auth/login
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Content-Length:"42"]
+             Body = {"username":"admin","password":"admin123"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.shanergy.bprev.controller.AuthController
+           Method = com.shanergy.bprev.controller.AuthController#login(LoginRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"token":"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6ImFkbWluIiwiaWF0IjoxNzU4MTg4NTE3LCJleHAiOjE3NTgxOTIxMTd9.EOM0XGlN_AwtqxgdM-7ltVTM7oNXedGcXwtlm-1p_Fk","username":"admin","roles":["ROLE_ADMIN"]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/analysis/assessments
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6ImFkbWluIiwiaWF0IjoxNzU4MTg4NTE3LCJleHAiOjE3NTgxOTIxMTd9.EOM0XGlN_AwtqxgdM-7ltVTM7oNXedGcXwtlm-1p_Fk", Content-Length:"380"]
+             Body = {"level":"MINE","name":"2025年矿级考核","startAt":"2025-08-19T17:41:57.161258+08:00","indicators":[{"displayName":"在办隐患","higherBetter":false,"thresholdValue":5,"code":"HAZARD_OPEN_TOTAL","weight":40},{"displayName":"检查完成率","higherBetter":true,"thresholdValue":95,"code":"INSPECTION_COMPLETION_RATE","weight":60}],"endAt":"2025-10-18T17:41:57.161263+08:00"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.shanergy.bprev.controller.AssessmentController
+           Method = com.shanergy.bprev.controller.AssessmentController#create(CycleRequest, Authentication)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"cycleId":"57c5fc45-1676-4478-8224-89ffd8b9c9dc","name":"2025年矿级考核","level":"MINE","startAt":"2025-08-19T09:41:57.161258Z","endAt":"2025-10-18T09:41:57.161263Z","status":null,"notes":null,"createdByName":"Administrator","createdAt":"2025-09-18T17:41:57.168641+08:00","updatedAt":"2025-09-18T17:41:57.168648+08:00","lastCalculatedAt":null,"indicators":[{"indicatorId":"7cbabf83-1b88-4189-90dd-6e2eaebeded6","code":"INSPECTION_COMPLETION_RATE","displayName":"检查完成率","dataSource":null,"weight":60.0,"thresholdValue":95.0,"higherBetter":true,"description":null,"createdAt":"2025-09-18T17:41:57.170001+08:00","updatedAt":"2025-09-18T17:41:57.170005+08:00"},{"indicatorId":"77356972-353c-4869-a9e0-dad5e5f66d49","code":"HAZARD_OPEN_TOTAL","displayName":"在办隐患","dataSource":null,"weight":40.0,"thresholdValue":5.0,"higherBetter":false,"description":null,"createdAt":"2025-09-18T17:41:57.168982+08:00","updatedAt":"2025-09-18T17:41:57.168985+08:00"}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+</testsuite>

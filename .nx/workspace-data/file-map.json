@@ -1,0 +1,1179 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.5.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".bmad-core/tasks/nfr-assess.md",
+        "hash": "17925232806973161277"
+      },
+      {
+        "file": ".bmad-core/data/technical-preferences.md",
+        "hash": "11761996169301568986"
+      },
+      {
+        "file": ".bmad-core/tasks/create-next-story.md",
+        "hash": "18150265903905121680"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/model/Risk.java",
+        "hash": "16506671588031783326"
+      },
+      {
+        "file": ".bmad-core/tasks/advanced-elicitation.md",
+        "hash": "17223931487938168306"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/nfr-assess.md",
+        "hash": "2430198339583692007"
+      },
+      {
+        "file": "docs/prd/2-需求-requirements.md",
+        "hash": "15298467462445354896"
+      },
+      {
+        "file": "apps/frontend-pc/src/views/risk/RiskFormView.vue",
+        "hash": "15504705798049768771"
+      },
+      {
+        "file": ".bmad-core/working-in-the-brownfield.md",
+        "hash": "8448906099303657674"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/brownfield-create-story.md",
+        "hash": "13725111864183007185"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/controller/UserController.class",
+        "hash": "714976727687477809"
+      },
+      {
+        "file": "docs/prd/1-目标和背景情况-goals-and-background-context.md",
+        "hash": "11629970117727680840"
+      },
+      {
+        "file": "apps/backend/src/test/java/com/shanergy/bprev/security/SecurityProtectedEndpointsTest.java",
+        "hash": "1542464185051904735"
+      },
+      {
+        "file": "apps/frontend-pc/src/router/index.js",
+        "hash": "11182221760641785184"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/model/User.java",
+        "hash": "8892119711998920388"
+      },
+      {
+        "file": ".bmad-core/data/elicitation-methods.md",
+        "hash": "4285596109079784654"
+      },
+      {
+        "file": ".bmad-core/agents/bmad-master.md",
+        "hash": "11551561790345587483"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/dto/UserDtos.java",
+        "hash": "5862343611460885002"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/apply-qa-fixes.md",
+        "hash": "12581602428095765295"
+      },
+      {
+        "file": ".bmad-core/tasks/facilitate-brainstorming-session.md",
+        "hash": "7027788617086759443"
+      },
+      {
+        "file": ".bmad-core/tasks/generate-ai-frontend-prompt.md",
+        "hash": "2634466137015865455"
+      },
+      {
+        "file": ".bmad-core/templates/prd-tmpl.yaml",
+        "hash": "14101624642129260531"
+      },
+      {
+        "file": "apps/frontend-pc/src/views/HomeView.vue",
+        "hash": "879436956783675971"
+      },
+      {
+        "file": "apps/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst",
+        "hash": "16760720676474601921"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/UserDtos$RoleSummary.class",
+        "hash": "6369596510730932387"
+      },
+      {
+        "file": "apps/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst",
+        "hash": "11525842220916684468"
+      },
+      {
+        "file": "apps/backend/src/test/java/com/shanergy/bprev/controller/HealthControllerTest.java",
+        "hash": "718618544991279738"
+      },
+      {
+        "file": ".bmad-core/templates/fullstack-architecture-tmpl.yaml",
+        "hash": "2524232341216592127"
+      },
+      {
+        "file": "apps/frontend-pc/vitest.setup.js",
+        "hash": "1464248109702877439"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/dto/RoleDtos.java",
+        "hash": "14989336265707485051"
+      },
+      {
+        "file": "start-frontend-mobile.sh",
+        "hash": "10920593292661043937"
+      },
+      {
+        "file": ".bmad-core/data/test-priorities-matrix.md",
+        "hash": "6721955645753564765"
+      },
+      {
+        "file": "apps/frontend-mobile/src/App.vue",
+        "hash": "14788077375666991781"
+      },
+      {
+        "file": ".bmad-core/utils/workflow-management.md",
+        "hash": "7879321664521989248"
+      },
+      {
+        "file": ".bmad-core/templates/brownfield-prd-tmpl.yaml",
+        "hash": "5452676616549561151"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/validate-next-story.md",
+        "hash": "5626999289466564114"
+      },
+      {
+        "file": "apps/backend/target/test-classes/com/shanergy/bprev/controller/ProtectedControllerIntegrationTest.class",
+        "hash": "12865331602578250665"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/index-docs.md",
+        "hash": "12868766621066344526"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/controller/ProtectedController.class",
+        "hash": "7329602888511790473"
+      },
+      {
+        "file": ".bmad-core/checklists/change-checklist.md",
+        "hash": "16884709078362612966"
+      },
+      {
+        "file": ".bmad-core/utils/bmad-doc-template.md",
+        "hash": "14186714928875887587"
+      },
+      {
+        "file": ".bmad-core/agents/bmad-orchestrator.md",
+        "hash": "2554700552997457402"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/TEST-com.shanergy.bprev.security.SecurityPublicEndpointsTest.xml",
+        "hash": "16899123237864912935"
+      },
+      {
+        "file": "apps/backend/target/test-classes/com/shanergy/bprev/security/SecurityProtectedEndpointsTest.class",
+        "hash": "12051462817456237727"
+      },
+      {
+        "file": "docs/prd/8-epic-3-数据分析与决策支持.md",
+        "hash": "17432186263316749239"
+      },
+      {
+        "file": "apps/backend/target/test-classes/data-h2.sql",
+        "hash": "17933442100784230342"
+      },
+      {
+        "file": "nx.bat",
+        "hash": "16828809655253213278"
+      },
+      {
+        "file": ".bmad-core/agents/dev.md",
+        "hash": "3819185886669682258"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/trace-requirements.md",
+        "hash": "2247234207817803120"
+      },
+      {
+        "file": "apps/frontend-pc/src/App.vue",
+        "hash": "7567644676117860493"
+      },
+      {
+        "file": "apps/backend/target/bprev-0.0.1-SNAPSHOT.jar.original",
+        "hash": "9881665083851626930"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "12745799026369821992"
+      },
+      {
+        "file": "docs/prd/7-epic-2-监督检查与流程扩展.md",
+        "hash": "8141797268737135904"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/UserDtos.class",
+        "hash": "11286463475316400084"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "14492926995375200197"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/controller/ProtectedController.java",
+        "hash": "18092525613808759137"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/repository/RoleRepository.java",
+        "hash": "13701338305858994067"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/service/UserService.class",
+        "hash": "5377078650040236497"
+      },
+      {
+        "file": ".bmad-core/tasks/apply-qa-fixes.md",
+        "hash": "15625086892347835958"
+      },
+      {
+        "file": "docs/prd/6-epic-1-核心基础与风险隐患管理.md",
+        "hash": "10026712389486362220"
+      },
+      {
+        "file": "docs/architecture/5-组件-components.md",
+        "hash": "6932423715843246598"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/dto/RiskDtos.java",
+        "hash": "78678412868142841"
+      },
+      {
+        "file": "apps/frontend-pc/package.json",
+        "hash": "10179610423158710325"
+      },
+      {
+        "file": "apps/backend/target/test-classes/application.properties",
+        "hash": "15585133792379902701"
+      },
+      {
+        "file": "apps/backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst",
+        "hash": "14407492751389124097"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-doc.md",
+        "hash": "42809923049209824"
+      },
+      {
+        "file": ".bmad-core/checklists/pm-checklist.md",
+        "hash": "3625100732599361377"
+      },
+      {
+        "file": "start-backend.sh",
+        "hash": "11986642011966007249"
+      },
+      {
+        "file": "apps/backend/target/test-classes/schema-h2.sql",
+        "hash": "14338041048042683165"
+      },
+      {
+        "file": ".bmad-core/data/test-levels-framework.md",
+        "hash": "14933665299270137132"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/security/RestAuthenticationEntryPoint.class",
+        "hash": "10625260351173327701"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/controller/RestExceptionHandler.java",
+        "hash": "17592093676998507367"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/ux-expert.md",
+        "hash": "4008661918155957282"
+      },
+      {
+        "file": "docs/stories/1.3.风险清单管理.story.md",
+        "hash": "14197015820929444397"
+      },
+      {
+        "file": ".bmad-core/user-guide.md",
+        "hash": "17918598546064312295"
+      },
+      {
+        "file": "apps/backend/target/test-classes/com/shanergy/bprev/controller/HealthControllerTest.class",
+        "hash": "2484760349525292223"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/brownfield-create-epic.md",
+        "hash": "2957100879601224630"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11222052814401555466"
+      },
+      {
+        "file": "apps/backend/src/main/resources/application.properties",
+        "hash": "12081330115301641964"
+      },
+      {
+        "file": ".bmad-core/tasks/create-doc.md",
+        "hash": "5689248432380683252"
+      },
+      {
+        "file": "apps/backend/target/test-classes/com/shanergy/bprev/controller/RiskControllerTest.class",
+        "hash": "12821695613281071749"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/repository/RiskRepository.java",
+        "hash": "12335463258317105645"
+      },
+      {
+        "file": "apps/frontend-pc/vue.config.js",
+        "hash": "5025363400400232919"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/review-story.md",
+        "hash": "5673067854225379428"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/UserDtos$UpdateUserRequest.class",
+        "hash": "11556927987307248013"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/TEST-com.shanergy.bprev.security.SecurityProtectedEndpointsTest.xml",
+        "hash": "9054695138707804607"
+      },
+      {
+        "file": "apps/backend/src/main/resources/data.sql",
+        "hash": "10884847013609567381"
+      },
+      {
+        "file": ".bmad-core/tasks/trace-requirements.md",
+        "hash": "8158170954591949762"
+      },
+      {
+        "file": ".bmad-core/checklists/story-draft-checklist.md",
+        "hash": "16165770342319157731"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/security/RestAccessDeniedHandler.class",
+        "hash": "408866923078197189"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RoleDtos$UpdateRoleRequest.class",
+        "hash": "12458273724824331935"
+      },
+      {
+        "file": "apps/backend/pom.xml",
+        "hash": "10286241838764235492"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/kb-mode-interaction.md",
+        "hash": "2564772285690890"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/com.shanergy.bprev.security.SecurityProtectedEndpointsTest.txt",
+        "hash": "1445991460378094913"
+      },
+      {
+        "file": "apps/frontend-pc/vitest.config.js",
+        "hash": "2547182765595191971"
+      },
+      {
+        "file": "apps/backend/src/main/resources/schema.sql",
+        "hash": "11077035862532256967"
+      },
+      {
+        "file": ".bmad-core/agents/analyst.md",
+        "hash": "13067091749905618769"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/generate-ai-frontend-prompt.md",
+        "hash": "7527945043512830492"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RiskDtos.class",
+        "hash": "14308417591176881799"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/service/RoleService.class",
+        "hash": "1568636136975803147"
+      },
+      {
+        "file": ".bmad-core/agents/po.md",
+        "hash": "6711287406034871789"
+      },
+      {
+        "file": ".bmad-core/tasks/create-deep-research-prompt.md",
+        "hash": "14730564240785956076"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/controller/RestExceptionHandler.class",
+        "hash": "3359758081672564780"
+      },
+      {
+        "file": "docs/architecture/7-rest-api-规范-rest-api-spec.md",
+        "hash": "1399797264811245039"
+      },
+      {
+        "file": ".bmad-core/tasks/test-design.md",
+        "hash": "14422193000721481102"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/BprevApplication.class",
+        "hash": "795276427385539785"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/LoginResponse.class",
+        "hash": "10316697323641547237"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/controller/RoleController.class",
+        "hash": "4583313835091758660"
+      },
+      {
+        "file": "apps/backend/target/classes/data.sql",
+        "hash": "10884847013609567381"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/architect.md",
+        "hash": "7419864901674002884"
+      },
+      {
+        "file": "apps/backend/target/classes/application.properties",
+        "hash": "12081330115301641964"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RiskDtos$RiskResponse.class",
+        "hash": "445774415989561651"
+      },
+      {
+        "file": "docs/architecture/9-项目源代码树结构-source-tree.md",
+        "hash": "12421139134693697450"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/service/UserService.java",
+        "hash": "430820407976083886"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/security/CustomUserDetailsService.class",
+        "hash": "14210599111830500796"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/correct-course.md",
+        "hash": "9647291800100559531"
+      },
+      {
+        "file": "docs/prd/9-epic-4-职业健康与智能化集成.md",
+        "hash": "8203022253678799724"
+      },
+      {
+        "file": ".bmad-core/agents/sm.md",
+        "hash": "15202124121750005004"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/controller/AuthController.class",
+        "hash": "8623068501388238612"
+      },
+      {
+        "file": "apps/frontend-pc/src/views/AdminUsersView.vue",
+        "hash": "6360353948268543042"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/UserDtos$UserResponse.class",
+        "hash": "10108939711792542826"
+      },
+      {
+        "file": "apps/backend/src/test/java/com/shanergy/bprev/controller/AdminApisTest.java",
+        "hash": "8352844451933693693"
+      },
+      {
+        "file": ".bmad-core/tasks/index-docs.md",
+        "hash": "16537600606131849869"
+      },
+      {
+        "file": ".bmad-core/tasks/shard-doc.md",
+        "hash": "7177305207687252728"
+      },
+      {
+        "file": ".bmad-core/templates/project-brief-tmpl.yaml",
+        "hash": "12070523584429133281"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/controller/RoleController.java",
+        "hash": "12933074197548189287"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/document-project.md",
+        "hash": "5364508912146181702"
+      },
+      {
+        "file": "docs/prd/10-清单检查结果报告-checklist-results-report.md",
+        "hash": "12619301296943200894"
+      },
+      {
+        "file": ".bmad-core/tasks/risk-profile.md",
+        "hash": "3500406260092176284"
+      },
+      {
+        "file": "apps/backend/src/test/resources/application.properties",
+        "hash": "15585133792379902701"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/controller/HealthController.class",
+        "hash": "10887991317224581450"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/po.md",
+        "hash": "438619358088099839"
+      },
+      {
+        "file": "docs/architecture/1-简介-introduction.md",
+        "hash": "13458199221353829346"
+      },
+      {
+        "file": "apps/backend/target/test-classes/com/shanergy/bprev/security/SecurityPublicEndpointsTest.class",
+        "hash": "663990708783409256"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-fullstack.yaml",
+        "hash": "11917446423779101691"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/security/CustomUserDetailsService.java",
+        "hash": "10783102327703205348"
+      },
+      {
+        "file": "docs/prd/index.md",
+        "hash": "15474680595604385880"
+      },
+      {
+        "file": "apps/frontend-pc/src/__tests__/LoginView.spec.js",
+        "hash": "14619297780940177621"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/com.shanergy.bprev.controller.AdminApisTest.txt",
+        "hash": "10934636222574633486"
+      },
+      {
+        "file": ".bmad-core/templates/architecture-tmpl.yaml",
+        "hash": "12323689974685229210"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/controller/HealthController.java",
+        "hash": "5318828625068089878"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/service/RoleService.java",
+        "hash": "3161641512943372234"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/service/RiskService.class",
+        "hash": "8209496448335433751"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/repository/UserRepository.class",
+        "hash": "10934119446755035041"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-ide-minimal.yaml",
+        "hash": "6599056621133681767"
+      },
+      {
+        "file": "docs/architecture/4-数据模型-data-models.md",
+        "hash": "2662946495724255249"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RoleDtos$CreateRoleRequest.class",
+        "hash": "9835501834556584342"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/security/SecurityConfig.class",
+        "hash": "16048356627578929688"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/com.shanergy.bprev.controller.RiskControllerTest.txt",
+        "hash": "10177131415024664925"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/TEST-com.shanergy.bprev.controller.AdminApisTest.xml",
+        "hash": "11875039831756116841"
+      },
+      {
+        "file": ".bmad-core/tasks/qa-gate.md",
+        "hash": "8824162947048565697"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/controller/AuthController.java",
+        "hash": "17905634339155654713"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RoleDtos.class",
+        "hash": "8589373756549320577"
+      },
+      {
+        "file": "apps/backend/src/test/java/com/shanergy/bprev/security/SecurityPublicEndpointsTest.java",
+        "hash": "16128412481103168784"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-brownfield-story.md",
+        "hash": "3374085739392781427"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/com.shanergy.bprev.controller.AuthControllerTest.txt",
+        "hash": "7639224609031851583"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2110945332964774953"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/repository/RoleRepository.class",
+        "hash": "3575049652008402101"
+      },
+      {
+        "file": "apps/backend/target/bprev-0.0.1-SNAPSHOT.jar",
+        "hash": "3607239406427820963"
+      },
+      {
+        "file": "apps/frontend-pc/src/views/risk/RisksListView.vue",
+        "hash": "15129636977546351129"
+      },
+      {
+        "file": ".bmad-core/tasks/create-brownfield-story.md",
+        "hash": "11759250300492194288"
+      },
+      {
+        "file": ".bmad-core/agents/architect.md",
+        "hash": "11334416960813961723"
+      },
+      {
+        "file": "apps/frontend-pc/src/__tests__/AdminView.spec.js",
+        "hash": "1994844471350118509"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/dto/LoginResponse.java",
+        "hash": "7436368966945169131"
+      },
+      {
+        "file": "apps/frontend-mobile/package.json",
+        "hash": "9930452293355404329"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/execute-checklist.md",
+        "hash": "4716630971864379265"
+      },
+      {
+        "file": "apps/backend/src/test/java/com/shanergy/bprev/controller/ProtectedControllerIntegrationTest.java",
+        "hash": "4679048505238091957"
+      },
+      {
+        "file": "apps/frontend-mobile/src/pages.json",
+        "hash": "5801122984909150814"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/model/Role.java",
+        "hash": "11819121213679867990"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/repository/UserRepository.java",
+        "hash": "13057748875316061633"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RiskDtos$CreateRiskRequest.class",
+        "hash": "16082761250133307450"
+      },
+      {
+        "file": ".bmad-core/tasks/validate-next-story.md",
+        "hash": "11770005072550985526"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/com.shanergy.bprev.security.SecurityPublicEndpointsTest.txt",
+        "hash": "16848317495461168515"
+      },
+      {
+        "file": "start-frontend-pc.sh",
+        "hash": "301837426440868609"
+      },
+      {
+        "file": "docs/prd/4-技术假设-technical-assumptions.md",
+        "hash": "16217921985058050289"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RiskDtos$UpdateRiskRequest.class",
+        "hash": "10448501453541024487"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/dto/ErrorResponse.java",
+        "hash": "14567518384424678560"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/com.shanergy.bprev.controller.ProtectedControllerIntegrationTest.txt",
+        "hash": "705086141691889334"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/test-design.md",
+        "hash": "14643230889609196633"
+      },
+      {
+        "file": ".bmad-core/workflows/greenfield-service.yaml",
+        "hash": "3422026561914705396"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/TEST-com.shanergy.bprev.controller.ProtectedControllerIntegrationTest.xml",
+        "hash": "463012661359003651"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/ErrorResponse.class",
+        "hash": "18200533546791113145"
+      },
+      {
+        "file": "apps/frontend-pc/src/__tests__/router.guard.spec.js",
+        "hash": "5436802833210672963"
+      },
+      {
+        "file": "apps/frontend-pc/src/views/LoginView.vue",
+        "hash": "9191982435951299465"
+      },
+      {
+        "file": ".bmad-core/install-manifest.yaml",
+        "hash": "9234283225277853246"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/service/RiskService.java",
+        "hash": "15747125271708118644"
+      },
+      {
+        "file": ".bmad-core/checklists/story-dod-checklist.md",
+        "hash": "10281023474099614987"
+      },
+      {
+        "file": ".bmad-core/templates/front-end-spec-tmpl.yaml",
+        "hash": "8976040021939915782"
+      },
+      {
+        "file": ".bmad-core/templates/brainstorming-output-tmpl.yaml",
+        "hash": "3082144360027690181"
+      },
+      {
+        "file": ".bmad-core/checklists/architect-checklist.md",
+        "hash": "6410438132036462266"
+      },
+      {
+        "file": "docs/architecture/2-高层架构-high-level-architecture.md",
+        "hash": "4499173096343267441"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/security/RestAuthenticationEntryPoint.java",
+        "hash": "17520872350745391110"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/controller/UserController.java",
+        "hash": "7227237996311849174"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/model/User.class",
+        "hash": "15399200440617485060"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/RoleDtos$RoleResponse.class",
+        "hash": "16746795279404522700"
+      },
+      {
+        "file": ".bmad-core/data/brainstorming-techniques.md",
+        "hash": "11613849674078599267"
+      },
+      {
+        "file": "apps/backend/target/test-classes/com/shanergy/bprev/controller/AuthControllerTest.class",
+        "hash": "15096877389786338488"
+      },
+      {
+        "file": ".bmad-core/tasks/execute-checklist.md",
+        "hash": "8340507629226533137"
+      },
+      {
+        "file": ".bmad-core/agents/qa.md",
+        "hash": "1997648974958996496"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/dev.md",
+        "hash": "5194574992182924570"
+      },
+      {
+        "file": "apps/frontend-pc/src/main.js",
+        "hash": "2636900838188615489"
+      },
+      {
+        "file": "apps/backend/src/test/resources/data-h2.sql",
+        "hash": "17933442100784230342"
+      },
+      {
+        "file": "apps/backend/src/test/java/com/shanergy/bprev/controller/RiskControllerTest.java",
+        "hash": "783928862933545022"
+      },
+      {
+        "file": ".bmad-core/templates/story-tmpl.yaml",
+        "hash": "12495374815725626245"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/model/Role.class",
+        "hash": "11022977439489698094"
+      },
+      {
+        "file": "docs/architecture/11-后续步骤-next-steps.md",
+        "hash": "11304397207908223837"
+      },
+      {
+        "file": ".bmad-core/tasks/review-story.md",
+        "hash": "2145204328233286276"
+      },
+      {
+        "file": "apps/backend/target/maven-archiver/pom.properties",
+        "hash": "12697243794444281431"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/analyst.md",
+        "hash": "11670627662488736847"
+      },
+      {
+        "file": "docs/prd/5-史诗列表-epic-list.md",
+        "hash": "5229080973046868295"
+      },
+      {
+        "file": "apps/backend/src/test/java/com/shanergy/bprev/controller/AuthControllerTest.java",
+        "hash": "9569202628266992064"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/security/JwtUtil.java",
+        "hash": "8103374208282542825"
+      },
+      {
+        "file": "apps/frontend-pc/package-lock.json",
+        "hash": "8807736337202036514"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/TEST-com.shanergy.bprev.controller.AuthControllerTest.xml",
+        "hash": "5001916551699194472"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/pm.md",
+        "hash": "15873979960245295260"
+      },
+      {
+        "file": "docs/architecture.md",
+        "hash": "8071287289648453723"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/BprevApplication.java",
+        "hash": "10004392448397507932"
+      },
+      {
+        "file": "docs/prd.md",
+        "hash": "7770852849955766853"
+      },
+      {
+        "file": ".bmad-core/data/bmad-kb.md",
+        "hash": "12266333404790385692"
+      },
+      {
+        "file": ".bmad-core/templates/market-research-tmpl.yaml",
+        "hash": "1200061766089906651"
+      },
+      {
+        "file": ".bmad-core/agents/ux-expert.md",
+        "hash": "6040311131189047573"
+      },
+      {
+        "file": ".bmad-core/tasks/brownfield-create-story.md",
+        "hash": "13141835723255598431"
+      },
+      {
+        "file": ".bmad-core/checklists/po-master-checklist.md",
+        "hash": "14680430908143577303"
+      },
+      {
+        "file": ".bmad-core/workflows/greenfield-fullstack.yaml",
+        "hash": "17302401867869576865"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/bmad-master.md",
+        "hash": "1009285123023714312"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/sm.md",
+        "hash": "12820781035041569629"
+      },
+      {
+        "file": "docs/architecture/8-数据库模式-database-schema.md",
+        "hash": "14387300655278900754"
+      },
+      {
+        "file": ".bmad-core/templates/qa-gate-tmpl.yaml",
+        "hash": "17946443956236349753"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/bmad-orchestrator.md",
+        "hash": "6409751737037117346"
+      },
+      {
+        "file": "docs/stories/1.2.基础用户与权限管理.story.md",
+        "hash": "1332034886308753641"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/security/RestAccessDeniedHandler.java",
+        "hash": "2561445942318803709"
+      },
+      {
+        "file": "apps/frontend-mobile/src/pages/index.vue",
+        "hash": "8983719101102866739"
+      },
+      {
+        "file": "docs/stories/1.4.移动端隐患快速上报.story.md",
+        "hash": "5229778410150278954"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/security/JwtAuthenticationFilter.java",
+        "hash": "10180042257882403956"
+      },
+      {
+        "file": "tools/jenkins/Jenkinsfile",
+        "hash": "1738800395967558473"
+      },
+      {
+        "file": ".bmad-core/workflows/greenfield-ui.yaml",
+        "hash": "13869452477675718529"
+      },
+      {
+        "file": "apps/backend/src/test/resources/schema-h2.sql",
+        "hash": "14338041048042683165"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/security/JwtAuthenticationFilter.class",
+        "hash": "15395543490861413985"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-fullstack.yaml",
+        "hash": "12586635774136024361"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/security/JwtUtil.class",
+        "hash": "7750464096038714773"
+      },
+      {
+        "file": "docs/architecture/index.md",
+        "hash": "13654626966340566350"
+      },
+      {
+        "file": "apps/backend/target/classes/schema.sql",
+        "hash": "11077035862532256967"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/TEST-com.shanergy.bprev.controller.HealthControllerTest.xml",
+        "hash": "6045427904372919457"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/controller/RiskController.class",
+        "hash": "17658545566787477064"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/com.shanergy.bprev.controller.HealthControllerTest.txt",
+        "hash": "13514353653381901926"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/facilitate-brainstorming-session.md",
+        "hash": "7888943537930917099"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/model/Risk.class",
+        "hash": "15202974673355483965"
+      },
+      {
+        "file": ".bmad-core/agents/pm.md",
+        "hash": "15877566805277138535"
+      },
+      {
+        "file": ".bmad-core/templates/front-end-architecture-tmpl.yaml",
+        "hash": "809340533291486468"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/UserDtos$CreateUserRequest.class",
+        "hash": "5822260309918464678"
+      },
+      {
+        "file": "apps/frontend-pc/src/services/auth.js",
+        "hash": "1342634274924319153"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-service.yaml",
+        "hash": "11869180425609598151"
+      },
+      {
+        "file": "apps/backend/target/test-classes/com/shanergy/bprev/controller/AdminApisTest.class",
+        "hash": "16850866277362647160"
+      },
+      {
+        "file": "apps/frontend-pc/src/__tests__/auth.spec.js",
+        "hash": "6278491955018352109"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/qa-gate.md",
+        "hash": "6026240396267230393"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/security/SecurityConfig.java",
+        "hash": "14452321019697747443"
+      },
+      {
+        "file": ".bmad-core/tasks/kb-mode-interaction.md",
+        "hash": "8752676768631267836"
+      },
+      {
+        "file": ".bmad-core/tasks/brownfield-create-epic.md",
+        "hash": "8996366329311395420"
+      },
+      {
+        "file": "docs/architecture/3-技术栈-tech-stack.md",
+        "hash": "17419064857307685029"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-deep-research-prompt.md",
+        "hash": "17213556261948270782"
+      },
+      {
+        "file": ".bmad-core/templates/brownfield-architecture-tmpl.yaml",
+        "hash": "14566096226045824129"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-no-ui.yaml",
+        "hash": "7187079644118709187"
+      },
+      {
+        "file": "docs/prd/11-po-最终验证报告-po-final-validation-report.md",
+        "hash": "1759904034259844260"
+      },
+      {
+        "file": "docs/prd/3-用户界面设计目标-user-interface-design-goals.md",
+        "hash": "10680303005329478711"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/qa.md",
+        "hash": "1432288955789418229"
+      },
+      {
+        "file": "apps/frontend-pc/src/views/AdminView.vue",
+        "hash": "6688072269620348184"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/shard-doc.md",
+        "hash": "156160490136917367"
+      },
+      {
+        "file": "docs/architecture/10-清单检查结果报告-checklist-results-report.md",
+        "hash": "16690570782397736461"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/repository/RiskRepository.class",
+        "hash": "17924849090448755136"
+      },
+      {
+        "file": "apps/backend/target/classes/com/shanergy/bprev/dto/LoginRequest.class",
+        "hash": "12252135137943207279"
+      },
+      {
+        "file": "docs/stories/1.1.项目初始化与核心框架搭建.story.md",
+        "hash": "7833471872710409915"
+      },
+      {
+        "file": "apps/backend/target/surefire-reports/TEST-com.shanergy.bprev.controller.RiskControllerTest.xml",
+        "hash": "3098282442429335298"
+      },
+      {
+        "file": "apps/frontend-pc/src/views/AdminRolesView.vue",
+        "hash": "12478058311134483380"
+      },
+      {
+        "file": "apps/frontend-mobile/src/main.js",
+        "hash": "15361492866952622053"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/advanced-elicitation.md",
+        "hash": "14876929230842518164"
+      },
+      {
+        "file": ".bmad-core/enhanced-ide-development-workflow.md",
+        "hash": "2266648761935650094"
+      },
+      {
+        "file": "docs/ux_spec.md",
+        "hash": "8998189981303872668"
+      },
+      {
+        "file": ".bmad-core/templates/competitor-analysis-tmpl.yaml",
+        "hash": "14619162470109769399"
+      },
+      {
+        "file": ".bmad-core/core-config.yaml",
+        "hash": "5342679047748220308"
+      },
+      {
+        "file": ".bmad-core/tasks/correct-course.md",
+        "hash": "6033057698172366538"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "9136418031879727096"
+      },
+      {
+        "file": "libs/shared-types/src/index.ts",
+        "hash": "53060262727313546"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/controller/RiskController.java",
+        "hash": "6802986061344828309"
+      },
+      {
+        "file": ".bmad-core/tasks/document-project.md",
+        "hash": "17524878674147022168"
+      },
+      {
+        "file": "docs/architecture/6-外部-api-external-apis.md",
+        "hash": "4043457534348712"
+      },
+      {
+        "file": "apps/backend/src/main/java/com/shanergy/bprev/dto/LoginRequest.java",
+        "hash": "3330664899508418537"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-next-story.md",
+        "hash": "17553399679149227138"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-all.yaml",
+        "hash": "1003435295130683497"
+      },
+      {
+        "file": "apps/backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst",
+        "hash": "2637396041526244323"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-ui.yaml",
+        "hash": "7147439765561175438"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/risk-profile.md",
+        "hash": "9817448544139144471"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}

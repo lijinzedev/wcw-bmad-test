@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Sep 16 15:11:22 CST 2025
+14399ca34b73858bd6485939a9872a7cea402a07@default-yunding-central-http\://10.16.4.116\:8081/repository/yunding-central/.lastUpdated=1758006682248
+http\://10.16.4.116\:8081/repository/yunding-central/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:3.1.5 from/to yunding-central (http\://10.16.4.116\:8081/repository/yunding-central/)\: Transfer failed for http\://10.16.4.116\:8081/repository/yunding-central/org/springframework/boot/spring-boot-starter-parent/3.1.5/spring-boot-starter-parent-3.1.5.pom
